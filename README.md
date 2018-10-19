@@ -25,7 +25,7 @@ $api = Scoreboards::getInstance();
 /** @var Player $player */
 $api->new($player, "ObjectiveName", "Title that is displayed in game");
 ```
-`$api::remove()` removes a Scoreboard from a player. You do not need to enter an objective name as it is stored from ``$api::new()`.
+`$api::remove()` removes a Scoreboard from a player. You do not need to enter an objective name as it is stored from `$api::new()`.
 ```php
 /** @var Player $player */
 $api->remove($player);
