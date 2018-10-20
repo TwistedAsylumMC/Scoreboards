@@ -29,7 +29,6 @@ class Scoreboards extends PluginBase{
 	public function new(Player $player, string $objectiveName, string $displayName): void{
 		if(isset($this->scoreboards[$player->getName()])){
 			$this->remove($player);
-			var_dump(1);
 		}
 		$pk = new SetDisplayObjectivePacket();
 		$pk->displaySlot = "sidebar";

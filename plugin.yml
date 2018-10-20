@@ -2,7 +2,7 @@ name: Scoreboards
 description: A PocketMine-MP plugin to create Scoreboards in 1.7!
 
 main: Scoreboards\Scoreboards
-version: 1.0.1
+version: 1.0.2
 api: 3.0.0
 
 author: Twisted
